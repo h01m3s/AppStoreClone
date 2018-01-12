@@ -19,7 +19,7 @@ struct AppCategory: Decodable {
     var apps: [App]?
     var type: String?
     
-    static func fetchFeaturedApps(completionHandler: @escaping ([AppCategory]) -> ()) {
+    static func fetchFeaturedApps(completionHandler: @escaping (FeaturedApps) -> ()) {
         let urlString = "https://api.letsbuildthatapp.com/appstore/featured"
         
         URLSession.shared.dataTask(with: URL(string: urlString)!) { (data, response, err) in
@@ -33,11 +33,9 @@ struct AppCategory: Decodable {
             
             do {
                 let featuredApps = try JSONDecoder().decode(FeaturedApps.self, from: data)
-
-                let appCategories = featuredApps.categories
                 
                 DispatchQueue.main.async {
-                    completionHandler(appCategories)
+                    completionHandler(featuredApps)
                 }
 
             } catch let jsonErr {
@@ -101,6 +99,5 @@ struct App: Decodable {
         case category = "Category"
         case imageName = "ImageName"
         case price = "Price"
-        
     }
 }
