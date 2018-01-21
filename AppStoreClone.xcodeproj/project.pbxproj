@@ -15,6 +15,7 @@
 		DB81C60D2005968800FE47F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB81C60B2005968800FE47F8 /* LaunchScreen.storyboard */; };
 		DB81C61520059A4F00FE47F8 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB81C61420059A4F00FE47F8 /* CategoryCell.swift */; };
 		DBC4019620085B0C005BB4DD /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4019520085B0C005BB4DD /* AppDetailController.swift */; };
+		DBC4019820141F09005BB4DD /* ScreenshotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC4019720141F09005BB4DD /* ScreenshotsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DB81C60E2005968800FE47F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB81C61420059A4F00FE47F8 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		DBC4019520085B0C005BB4DD /* AppDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
+		DBC4019720141F09005BB4DD /* ScreenshotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				DB81C6042005968800FE47F8 /* ViewController.swift */,
 				DBC4019520085B0C005BB4DD /* AppDetailController.swift */,
 				DB81C61420059A4F00FE47F8 /* CategoryCell.swift */,
+				DBC4019720141F09005BB4DD /* ScreenshotsCell.swift */,
 				DB7C6F572006C44900001924 /* Models.swift */,
 				DB81C6062005968800FE47F8 /* Main.storyboard */,
 				DB81C6092005968800FE47F8 /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				DB81C61520059A4F00FE47F8 /* CategoryCell.swift in Sources */,
 				DBC4019620085B0C005BB4DD /* AppDetailController.swift in Sources */,
 				DB7C6F582006C44900001924 /* Models.swift in Sources */,
+				DBC4019820141F09005BB4DD /* ScreenshotsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
